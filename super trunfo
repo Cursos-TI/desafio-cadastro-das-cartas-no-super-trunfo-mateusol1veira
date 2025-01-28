@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main(){
+
+    char codigodacidade[50], nome[50];
+    int populacao, area, pib, pontosturisticos;
+
+    printf("informe o codigo da cidade: \n");
+    scanf("%s", &codigodacidade);
+
+    printf("informe o nome da cidade: \n");
+    scanf("%s", &nome);
+
+    printf("informe a quantidade de população: \n");
+    scanf("%d", &populacao);
+
+    printf("informe a área total da cidade: \n");
+    scanf("%d", &area);
+
+    printf("informe o pib da cidade: \n");
+    scanf("%d", &pib);
+
+    printf("informe quantos pontos turisticos a cidade possui: \n");
+    scanf("%d", &pontosturisticos);
+
+    printf("codigo da cidade: %s\n - nome: %s\n", codigodacidade, nome);
+    printf("-população: %d\n - area: %d\n - pib: %d\n - pontos turisticos %d\n", populacao, area, pib, pontosturisticos);
